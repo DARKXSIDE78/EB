@@ -24,6 +24,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
 from pyrogram.types import Message
 from psutil import disk_usage, cpu_percent, virtual_memory, Process as psprocess
+from flask import Flask
 
 from bot.plugins.incoming_message_fn import (
     incoming_start_message_f,
@@ -62,6 +63,23 @@ def ts(milliseconds: int) -> str:
         + ((str(milliseconds) + "ms, ") if milliseconds else "")
     )
     return tmp[:-2]
+
+# Create a Flask app
+web_app = Flask(__name__)
+
+# Define a health check route
+@web_app.route('/health', methods=['GET'])
+def health_check():
+    return "OK", 200  # Respond with a 200 OK status to indicate the service is healthy
+
+if __name__ == "__main__":
+    # Run the Flask app on port 8080
+    from threading import Thread
+    def run_web_app():
+        web_app.run(host="0.0.0.0", port=8080)
+
+    # Start the Flask web app in a separate thread so it runs alongside the Pyrogram bot
+    Thread(target=run_web_app).start()
 
 
 if __name__ == "__main__" :
