@@ -10,3 +10,4 @@ git+https://github.com/Tinche/aiofiles.git@7582fda077e0e5b58a4f7fa3f11d0f53ef36e
 dnspython
 ffmpeg
 asyncio 
+flask
