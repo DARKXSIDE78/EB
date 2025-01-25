@@ -1,0 +1,346 @@
+17-Jan-25 07:10:55 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/1.mkv
+17-Jan-25 07:10:55 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/1.mkv
+17-Jan-25 07:10:59 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 16430
+17-Jan-25 07:25:45 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 07:25:45 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 07:25:45 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 07:25:45 - bot.plugins.incoming_message_fn - INFO - 1.mkv
+17-Jan-25 07:26:38 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 07:28:34 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/2.mkv
+17-Jan-25 07:28:34 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/2.mkv
+17-Jan-25 07:28:36 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 16546
+17-Jan-25 07:42:37 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 07:42:37 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 07:42:37 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 07:42:37 - bot.plugins.incoming_message_fn - INFO - 2.mkv
+17-Jan-25 07:43:29 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 07:52:44 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/3.mkv
+17-Jan-25 07:52:44 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/3.mkv
+17-Jan-25 07:52:46 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 16675
+17-Jan-25 08:07:49 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 08:07:49 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 08:07:49 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 08:07:49 - bot.plugins.incoming_message_fn - INFO - 3.mkv
+17-Jan-25 08:08:30 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 08:13:58 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/4.mkv
+17-Jan-25 08:13:58 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/4.mkv
+17-Jan-25 08:14:00 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 16799
+17-Jan-25 08:14:37 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+17-Jan-25 08:14:48 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+17-Jan-25 08:46:09 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 08:46:09 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 08:46:09 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 08:46:09 - bot.plugins.incoming_message_fn - INFO - 4.mkv
+17-Jan-25 08:46:53 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 08:53:09 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/5.mkv
+17-Jan-25 08:53:09 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/5.mkv
+17-Jan-25 08:53:14 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 16955
+17-Jan-25 09:18:44 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 09:18:44 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 09:18:44 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 09:18:44 - bot.plugins.incoming_message_fn - INFO - 5.mkv
+17-Jan-25 09:19:35 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 09:27:16 - pyrogram.session.session - WARNING - [10] Retrying "upload.GetFile" due to: Request timed out
+17-Jan-25 09:27:31 - pyrogram.client - ERROR - Request timed out
+Traceback (most recent call last):
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/client.py", line 927, in get_file
+    r = await session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 402, in invoke
+    raise e from None
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 351, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+17-Jan-25 09:27:31 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/6.mkv
+17-Jan-25 09:27:31 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/6.mkv
+17-Jan-25 09:27:34 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17100
+17-Jan-25 09:39:58 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 09:39:58 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 09:39:58 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 09:39:58 - bot.plugins.incoming_message_fn - INFO - 6.mkv
+17-Jan-25 09:40:39 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 09:43:24 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/7.mkv
+17-Jan-25 09:43:24 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/7.mkv
+17-Jan-25 09:43:26 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17185
+17-Jan-25 09:56:47 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 09:56:47 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 09:56:47 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 09:56:47 - bot.plugins.incoming_message_fn - INFO - 7.mkv
+17-Jan-25 09:57:14 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 10:03:02 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/8.mkv
+17-Jan-25 10:03:02 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/8.mkv
+17-Jan-25 10:03:04 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17270
+17-Jan-25 10:17:27 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 10:17:27 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 10:17:27 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 10:17:27 - bot.plugins.incoming_message_fn - INFO - 8.mkv
+17-Jan-25 10:18:17 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 10:25:17 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/9.mkv
+17-Jan-25 10:25:17 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/9.mkv
+17-Jan-25 10:25:18 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17355
+17-Jan-25 10:42:38 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 10:42:38 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 10:42:38 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 10:42:38 - bot.plugins.incoming_message_fn - INFO - 9.mkv
+17-Jan-25 10:43:36 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 10:45:49 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/10.mkv
+17-Jan-25 10:45:49 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/10.mkv
+17-Jan-25 10:45:50 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17440
+17-Jan-25 11:00:00 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 11:00:00 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 11:00:00 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 11:00:00 - bot.plugins.incoming_message_fn - INFO - 10.mkv
+17-Jan-25 11:00:53 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 11:04:05 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/11.mkv
+17-Jan-25 11:04:05 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/11.mkv
+17-Jan-25 11:04:06 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17525
+17-Jan-25 11:17:30 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 11:17:30 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 11:17:30 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 11:17:30 - bot.plugins.incoming_message_fn - INFO - 11.mkv
+17-Jan-25 11:18:05 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 11:22:11 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 11:22:11 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 11:22:13 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17610
+17-Jan-25 11:36:04 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 11:36:04 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 11:36:04 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 11:36:04 - bot.plugins.incoming_message_fn - INFO - 12.mkv
+17-Jan-25 11:36:34 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 12:18:53 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 12:18:53 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 12:18:55 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17695
+17-Jan-25 12:24:48 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 12:24:48 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 12:24:48 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 12:24:48 - bot.plugins.incoming_message_fn - INFO - 12.mkv
+17-Jan-25 12:25:08 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 13:13:26 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 13:13:26 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 13:13:28 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17780
+17-Jan-25 13:18:58 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 13:18:58 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 13:18:58 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 13:18:58 - bot.plugins.incoming_message_fn - INFO - 12.mkv
+17-Jan-25 13:19:21 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 15:10:58 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 15:10:58 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 15:10:59 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17863
+17-Jan-25 15:23:44 - bot.helper_funcs.ffmpeg - INFO - x265 [info]: HEVC encoder version 3.5+1-f0c1022b6
+x265 [info]: build info [Linux][GCC 13.2.0][64 bit] 10bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX XOP FMA4 FMA3 BMI1
+x265 [info]: Main 10 profile, Level-3 (Main tier)
+x265 [warning]: No thread pool allocated, --wpp disabled
+x265 [warning]: No thread pool allocated, --lookahead-slices disabled
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 2 / none
+x265 [info]: Coding QT: max CU size, min CU size : 32 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 1 / 2
+x265 [info]: Keyframe min / max / scenecut / bias  : 23 / 250 / 40 / 5.00 
+x265 [info]: Lookahead / bframes / badapt        : 10 / 5 / 0
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 0 / 0
+x265 [info]: References / ref-limit  cu / depth  : 1 / off / off
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 1 / 0.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-28.0 / 0.60
+x265 [info]: tools: rd=2 psy-rd=0.40 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: fast-intra strong-intra-smoothing deblock(tC=1:B=1)
+x265 [info]: frame I:    382, Avg QP:27.35  kb/s: 2355.84 
+x265 [info]: frame P:   5712, Avg QP:30.97  kb/s: 327.77  
+x265 [info]: frame B:  27617, Avg QP:35.57  kb/s: 70.22   
+x265 [info]: consecutive B-frames: 6.7% 0.6% 1.8% 2.2% 0.9% 87.7% 
+
+encoded 33711 frames in 764.17s (44.11 fps), 139.76 kb/s, Avg QP:34.70
+17-Jan-25 15:23:44 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 15:23:44 - bot.plugins.incoming_message_fn - INFO - 12.mkv
+17-Jan-25 15:24:02 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 16:19:30 - pyrogram.session.session - WARNING - [10] Retrying "upload.GetFile" due to: Request timed out
+17-Jan-25 16:19:45 - pyrogram.client - ERROR - Request timed out
+Traceback (most recent call last):
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/client.py", line 927, in get_file
+    r = await session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 402, in invoke
+    raise e from None
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dark/.local/lib/python3.12/site-packages/pyrogram/session/session.py", line 351, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+17-Jan-25 16:19:45 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/1.mkv
+17-Jan-25 16:19:45 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/1.mkv
+17-Jan-25 16:19:48 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 17978
+17-Jan-25 16:21:32 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 16:21:32 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 16:21:32 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 16:21:32 - bot.plugins.incoming_message_fn - INFO - 1.mkv
+17-Jan-25 16:21:43 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 16:25:18 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/2.mkv
+17-Jan-25 16:25:18 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/2.mkv
+17-Jan-25 16:25:21 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 18119
+17-Jan-25 16:38:39 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 16:38:39 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 16:38:39 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 16:38:39 - bot.plugins.incoming_message_fn - INFO - 2.mkv
+17-Jan-25 16:38:59 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 16:52:02 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/3.mkv
+17-Jan-25 16:52:02 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/3.mkv
+17-Jan-25 16:52:05 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 18384
+17-Jan-25 17:02:39 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 17:02:39 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 17:02:39 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 17:02:39 - bot.plugins.incoming_message_fn - INFO - 3.mkv
+17-Jan-25 17:03:04 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 17:11:55 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/4.mkv
+17-Jan-25 17:11:55 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/4.mkv
+17-Jan-25 17:11:57 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 18523
+17-Jan-25 17:17:51 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 17:17:51 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 17:17:51 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 17:17:51 - bot.plugins.incoming_message_fn - INFO - 4.mkv
+17-Jan-25 17:18:20 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 17:26:18 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/5.mkv
+17-Jan-25 17:26:18 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/5.mkv
+17-Jan-25 17:26:20 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 18693
+17-Jan-25 17:39:40 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 17:39:40 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 17:39:40 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 17:39:40 - bot.plugins.incoming_message_fn - INFO - 5.mkv
+17-Jan-25 17:40:08 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 17:40:40 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/6.mkv
+17-Jan-25 17:40:40 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/6.mkv
+17-Jan-25 17:40:42 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 18861
+17-Jan-25 17:53:13 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 17:53:13 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 17:53:13 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 17:53:13 - bot.plugins.incoming_message_fn - INFO - 6.mkv
+17-Jan-25 17:53:51 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 17:54:19 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/7.mkv
+17-Jan-25 17:54:19 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/7.mkv
+17-Jan-25 17:54:20 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 19017
+17-Jan-25 18:09:35 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 18:09:35 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:09:35 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:09:35 - bot.plugins.incoming_message_fn - INFO - 7.mkv
+17-Jan-25 18:09:58 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 18:10:30 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/8.mkv
+17-Jan-25 18:10:30 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/8.mkv
+17-Jan-25 18:10:32 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 19160
+17-Jan-25 18:16:46 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 18:16:46 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:16:46 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:16:46 - bot.plugins.incoming_message_fn - INFO - 8.mkv
+17-Jan-25 18:17:05 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 18:17:45 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/9.mkv
+17-Jan-25 18:17:45 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/9.mkv
+17-Jan-25 18:17:47 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 19264
+17-Jan-25 18:24:17 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 18:24:17 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:24:17 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:24:17 - bot.plugins.incoming_message_fn - INFO - 9.mkv
+17-Jan-25 18:24:48 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 18:27:35 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/10.mkv
+17-Jan-25 18:27:35 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/10.mkv
+17-Jan-25 18:27:37 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 19368
+17-Jan-25 18:33:35 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 18:33:35 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:33:35 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:33:35 - bot.plugins.incoming_message_fn - INFO - 10.mkv
+17-Jan-25 18:34:06 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 18:35:52 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/11.mkv
+17-Jan-25 18:35:52 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/11.mkv
+17-Jan-25 18:35:54 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 19513
+17-Jan-25 18:48:56 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 18:48:56 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:48:56 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 18:48:56 - bot.plugins.incoming_message_fn - INFO - 11.mkv
+17-Jan-25 18:49:28 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+17-Jan-25 18:51:24 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 18:51:24 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/12.mkv
+17-Jan-25 18:51:26 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 19718
+17-Jan-25 19:07:22 - bot.helper_funcs.ffmpeg - INFO - end
+17-Jan-25 19:07:22 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 19:07:22 - bot.helper_funcs.ffmpeg - INFO - 
+17-Jan-25 19:07:22 - bot.plugins.incoming_message_fn - INFO - 12.mkv
+17-Jan-25 19:07:52 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+18-Jan-25 00:57:07 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/1.mkv
+18-Jan-25 00:57:07 - bot.plugins.incoming_message_fn - INFO - /home/dark/Encoder/downloads/1.mkv
+18-Jan-25 00:57:09 - bot.helper_funcs.ffmpeg - INFO - ffmpeg_process: 21091
+18-Jan-25 01:09:52 - bot.helper_funcs.ffmpeg - INFO - end
+18-Jan-25 01:09:52 - bot.helper_funcs.ffmpeg - INFO - 
+18-Jan-25 01:09:52 - bot.helper_funcs.ffmpeg - INFO - 
+18-Jan-25 01:09:52 - bot.plugins.incoming_message_fn - INFO - 1.mkv
+18-Jan-25 01:10:34 - bot.plugins.incoming_message_fn - INFO - Eɴᴄᴏᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ...
+18-Jan-25 11:06:12 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 11:06:23 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 11:07:45 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 11:07:56 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 11:25:25 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 11:25:36 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:08:39 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:08:50 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:09:32 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:09:43 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:15:01 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:15:12 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:16:49 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:17:00 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:18:46 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:18:57 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:19:40 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:19:51 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:20:14 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:20:25 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:22:13 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:22:24 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:23:54 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:24:05 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:25:15 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:25:26 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:26:01 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:26:12 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:26:35 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:26:46 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:28:31 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:28:42 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:29:45 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 12:29:56 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 13:08:46 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 13:08:57 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 13:10:25 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 13:10:37 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 14:07:07 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 14:07:18 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 14:07:29 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 14:07:30 - pyrogram.connection.connection - WARNING - Connection failed! Trying again...
+18-Jan-25 14:07:40 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 14:07:51 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: Connection timed out
+18-Jan-25 15:13:03 - root - INFO - Stop signal received (SIGTERM). Exiting...
+18-Jan-25 15:13:03 - bot.helper_funcs.ffmpeg - INFO - end
+18-Jan-25 15:13:03 - bot.helper_funcs.ffmpeg - INFO - 
+18-Jan-25 15:13:03 - bot.helper_funcs.ffmpeg - INFO - 
+18-Jan-25 15:13:03 - bot.plugins.incoming_message_fn - INFO - None
