@@ -2,5 +2,4 @@
 FROM artemisfowl004/vid-compress
 RUN apt update && apt install -y ffmpeg
 RUN pip install -r requirements.txt
-COPY . .
-CMD ["bash","start.sh"]
+CMD ["python3","-m main"]
