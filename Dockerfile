@@ -3,4 +3,4 @@ RUN apt update && apt install -y ffmpeg
 RUN pip install Pillow psutil hachoir tgcrypto pyrofork motor aiofiles dnspython ffmpeg asyncio flask
 WORKDIR /app
 COPY . /app
-CMD ["python3", "-m bot"]
+CMD ["python", "-m bot"]
